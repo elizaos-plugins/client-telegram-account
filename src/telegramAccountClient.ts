@@ -337,4 +337,8 @@ export class TelegramAccountClient {
             return sentMessages;
         }
     }
+
+    async stop() {
+        elizaLogger.warn("Telegram client does not support stopping yet");
+    }
 }
