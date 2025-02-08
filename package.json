@@ -19,7 +19,6 @@
         "dist"
     ],
     "dependencies": {
-        "@elizaos/core": "workspace:*",
         "glob": "11.0.0",
         "input": "^1.0.1",
         "telegram": "2.17.4"
