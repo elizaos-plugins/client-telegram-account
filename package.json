@@ -1,6 +1,6 @@
 {
-    "name": "@elizaos/client-telegram-account",
-    "version": "0.1.9",
+    "name": "@elizaos-plugins/client-telegram-account",
+    "version": "0.25.6-alpha.1",
     "type": "module",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -38,5 +38,8 @@
     },
     "peerDependencies": {
         "whatwg-url": "7.1.0"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }
