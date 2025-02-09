@@ -1,6 +1,7 @@
-import { Plugin, Client } from '@elizaos/core';
+declare const telegramAccountPlugin: {
+    name: string;
+    description: string;
+    clients: Client[];
+};
 
-declare const TelegramAccountClientInterface: Client;
-declare const telegramAccountPlugin: Plugin;
-
-export { TelegramAccountClientInterface, telegramAccountPlugin as default };
+export { telegramAccountPlugin as default };

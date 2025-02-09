@@ -4391,7 +4391,7 @@ var TelegramAccountClient = class {
   }
 };
 
-// src/index.ts
+// src/client.ts
 var TelegramAccountClientInterface = {
   name: "telegramAccount",
   start: async (runtime) => {
@@ -4401,6 +4401,8 @@ var TelegramAccountClientInterface = {
     return telegramAccountClient;
   }
 };
+
+// src/index.ts
 var telegramAccountPlugin = {
   name: "telegramAccount",
   description: "Telegram account client plugin",
@@ -4408,7 +4410,6 @@ var telegramAccountPlugin = {
 };
 var index_default = telegramAccountPlugin;
 export {
-  TelegramAccountClientInterface,
   index_default as default
 };
 //# sourceMappingURL=index.js.map
