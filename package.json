@@ -40,5 +40,35 @@
     },
     "publishConfig": {
         "access": "public"
+    },
+    "agentConfig": {
+        "pluginType": "elizaos:client:1.0.0",
+        "pluginParameters": {
+            "TELEGRAM_ACCOUNT_PHONE": {
+                "type": "string",
+                "minLength": 1,
+                "description": "The phone number associated with the Telegram account."
+            },
+            "TELEGRAM_ACCOUNT_APP_ID": {
+                "type": "string",
+                "minLength": 1,
+                "description": "The application ID for the Telegram API."
+            },
+            "TELEGRAM_ACCOUNT_APP_HASH": {
+                "type": "string",
+                "minLength": 1,
+                "description": "The application hash for the Telegram API."
+            },
+            "TELEGRAM_ACCOUNT_DEVICE_MODEL": {
+                "type": "string",
+                "minLength": 1,
+                "description": "The device model of the Telegram account."
+            },
+            "TELEGRAM_ACCOUNT_SYSTEM_VERSION": {
+                "type": "string",
+                "minLength": 1,
+                "description": "The system version of the Telegram account."
+            }
+        }
     }
 }
